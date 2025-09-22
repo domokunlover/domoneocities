@@ -1,0 +1,131 @@
+* {
+  font-family: ms pgothic !important;
+}
+#HCB_comment_box textarea {
+  border-radius: 3px;
+  max-width: 525px;
+}
+
+/* the entire html comment box container. applies to everything */
+#HCB_comment_box {
+  font-family: ms pgothic;
+  color: white;
+  background-color: black;
+  padding: 5px;
+}
+
+#HCB_comment_box p.error {
+  border: 1px solid red;
+  background-color: #fee;
+}
+
+.hcb-mod b {
+    color:gray;
+    font-weight: 0;
+}
+
+#HCB_comment_box textarea, #HCB_comment_box input.text {
+  border-top: 1px solid #e4e4e4;
+  border-left: 1px solid #e4e4e4;
+  border-bottom: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  color: white;
+  background-color: black;
+}
+
+#HCB_comment_box .hcb-wrapper-half {
+    display:block;
+    width:50%;
+    float:left;
+}
+#HCB_comment_box .hcb-wrapper {
+    clear:both;
+}
+#HCB_comment_box input.text {
+    display:block;
+    width:97%;
+}
+/* the submit button */
+#HCB_comment_box input.submit {
+  border-top: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #888;
+  border-right: 1px solid #888;
+  background-color: #ccc;
+  color: #666;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+#HCB_comment_box span.home-desc {
+  font-size:10px;
+  opacity:0.4;
+}
+
+/* the individual comment display containers */
+#HCB_comment_box div.comment {
+  margin-bottom: 10px;
+}
+
+/* the moderator message */
+.hcb-mod  i{
+  color:darkblue;
+}
+
+#hcb_form_name {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+
+.home-desc {
+  display: none;
+}
+
+#comments_list::-webkit-scrollbar {
+width: 8px;
+}
+ 
+#comments_list::-webkit-scrollbar-track {
+background-color: black;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+border: 1px solid #ccc;
+}
+ 
+#comments_list::-webkit-scrollbar-thumb {
+-webkit-border-radius: 10px;
+border-radius: 10px;
+background: black;
+border: 1px solid #aaa;
+}
+
+#comments_list {
+  margin-bottom: 10px;
+}
+
+#HCB_comment_box .hcb-comment-tb button {
+    font-size: 11px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 0;
+    margin-right: 4px;
+    background: none;
+}
+
+#HCB_comment_box div.comment {
+  background: rgba(107, 107, 107, 0.05);
+  border-radius: 4px;
+  border: 1px solid gray;
+  padding: 5px 3px;
+}
+
+#HCB_comment_box .hcb-comment-body {
+  margin: 5px 10px;
+}
+
+#HCB_comment_box #comments_list .comment a img {
+  max-width: 250px;
+}
