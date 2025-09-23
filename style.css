@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+a {
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+}
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
